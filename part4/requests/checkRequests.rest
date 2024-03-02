@@ -1,0 +1,12 @@
+GET http://localhost:3003/api/blogs
+
+###
+POST http://localhost:3003/api/blogs 
+content-type:application/json
+
+{
+"title": "One Piece",
+"author": "Eichiro Oda", 
+"url": "https://onepiece/", 
+"likes": 12529382938293829
+}

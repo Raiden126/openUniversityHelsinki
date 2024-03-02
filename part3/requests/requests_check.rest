@@ -1,0 +1,25 @@
+DELETE http://localhost:3000/api/persons/65da7747ac441a1aad803468
+
+###
+POST http://localhost:3000/api/persons/
+content-type: application/json
+
+{
+    "name": "dddd",
+    "number": "235423"
+}
+
+###
+GET http://localhost:3000/api/persons/65da567769aab65cda06baf0
+
+###
+GET http://localhost:3000/api/persons/
+
+###
+PUT http://localhost:3000/api/persons/65da5b5afc1e81932b5d652f
+content-type: application/json
+
+{
+    "name": "jitesh",
+    "number": "79324220390"
+}
